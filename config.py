@@ -13,10 +13,10 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "5882205946:AAGbTr7qXByaCNbUNZ067N0Y-tgh
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("904093599")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "Dynamicshort")
-DATABASE_URL = os.getenv("DATABASE_URL", "Monfo url") 
-OWNER_ID =  int(os.environ.get("OWNER_ID", "Owner Id")) 
+DATABASE_URL = os.getenv("DATABASE_URL", "https://ill-pear-indri-shoe.cyclic.app") 
+OWNER_ID =  int(os.environ.get("OWNER_ID", "VISHWA850")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
-ADMINS.append(Id Owned Id)
+ADMINS.append("Id_Owned_Id")
 #  Optionnal variables
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "Logs Channels Id")) 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "Updates Channel User name Without @") # For Force Subscription
